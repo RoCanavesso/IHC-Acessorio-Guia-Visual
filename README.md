@@ -9,7 +9,7 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Gui
 
 ## Resumo
 
-O presente trabalho propõe o desenvolvimento de uma ferramenta automatizada para a geração de datasets de expressões faciais humanas, com foco na identificação de sentimentos e emoções de jogadores durante sessões de jogos digitais. A ferramenta será capaz de capturar, em tempo real, imagens da face do jogador a partir de uma webcam, processá-las e classificá-las segundo suas expressões emocionais predominantes, utilizando modelos de reconhecimento facial baseados em aprendizado profundo (Deep Learning), especificamente o modelo DeepFace.
+O presente trabalho propõe o desenvolvimento de um website voltado à divulgação e comercialização de um protótipo assistivo criado para pessoas com deficiência visual. O produto em questão consiste em um acessório inteligente de óculos baseado em visão computacional, capaz de detectar elementos do ambiente urbano como pessoas, veículos e placas de sinalização e transmitir essas informações ao usuário por meio de feedback sonoro em tempo real. O site terá como objetivo apresentar as funcionalidades do dispositivo, demonstrar seu funcionamento por meio de descrições interativas e recursos multimídia, além de fornecer uma interface intuitiva para potenciais interessados. Dessa forma, busca-se aplicar princípios de Interação Humano-Computador (IHC) no design e na usabilidade da plataforma, de modo a garantir clareza, acessibilidade e engajamento na apresentação da tecnologia desenvolvida no Trabalho de Conclusão de Curso.
 
 ## Introdução
 
@@ -23,6 +23,10 @@ O presente trabalho propõe o desenvolvimento de uma ferramenta automatizada par
 
 -->
 
+<!--
+
+ESSA É A PARTE DO PEDRO, TOMAR COMO REFERÊNCIA!!!
+
 A criação de datasets de imagens rotuladas é uma etapa essencial em projetos de visão computacional, especialmente no contexto de reconhecimento facial e detecção de emoções. No entanto, esse processo é, em geral, demorado e trabalhoso, exigindo classificação manual de uma grande quantidade de imagens antes que seja possível iniciar o treinamento automático de modelos de aprendizado de máquina. Este projeto busca explorar alternativas que tornem esse processo mais ágil, confiável e acessível. Ao minimizar o custo produtivo da coleta e rotulagem inicial, é possível direcionar mais atenção à curadoria e à qualidade das classificações, aspecto relevante quando se trata de emoções, que são frequentemente ambíguas e subjetivas à interpretação humana.
 
 As expressões faciais são um dos principais meios de comunicação não verbal, permitindo a manifestação e a interpretação de sentimentos mesmo na ausência da fala. Este trabalho propõe o desenvolvimento de uma ferramenta que automatize a criação de datasets de expressões faciais humanas, associadas a diferentes emoções, com foco específico em sessões reais de jogos digitais. Diferente de abordagens existentes, que dependem de jogos específicos que instruem o jogador a imitar emoções pré-definidas, a ferramenta aqui proposta visa capturar expressões espontâneas, registradas naturalmente por uma facecam enquanto o jogador interage com qualquer jogo eletrônico. Ao relacionar essas expressões ao contexto do que está sendo exibido na tela, busca-se construir conjuntos de dados mais representativos e aplicáveis a cenários reais.
@@ -31,6 +35,25 @@ As expressões faciais são um dos principais meios de comunicação não verbal
 - Computador: Utilizaremos um computador ou notebook que possuam no mínimo as seguintes especificações: processador i5-8400 (ou equivalente/melhor) e 16 GB de memória RAM. Usaremos essas máquinas para realizar a programação, design e desenvolvimento do projeto, assim como seus testes e correções. Também o utilizaremos como um artifício para teste e prototipação em jogos, para identificar e definir as expressões faciais do usuário. Utilizaremos o computador para testes e não videogames, pois a interface da aplicação estará no próprio aparelho, facilitando a captura.
 - Dataset: Datasets contendo imagens de expressões faciais serão utilizados para a realização da comparação e identificação dessas expressões. A intenção é utilizar datasets já disponíveis, para otimizar e agilizar o processo de desenvolvimento do nosso projeto. Alguns datasets recomendados incluem: Kaggle - Face Expression Recognition Dataset e DFEW (Dynamic Facial Expression in-the-Wild).
 - IA: Utilizaremos uma IA que consiga ser alimentada de modo a analisar o contexto presente na tela e reconhecer corretamente a relação entre a expressão do indivíduo e o contexto que se apresenta. Algumas IAs que podem ser utilizadas são: FER - Facial Expression Recognition e MediaPipe.
+
+-->
+
+<!-- ESSE É O NOSSO PROJETO! -->
+O acessório assistivo tem como propósito ampliar a autonomia e a segurança de pessoas com deficiência visual durante a locomoção em ambientes urbanos. Por meio de visão computacional, reconhecimento de textos e síntese de voz, o dispositivo possibilita que o usuário receba informações em tempo real sobre elementos relevantes ao seu redor, facilitando a orientação e promovendo maior inclusão social.
+
+Os principais benefícios oferecidos aos usuários são:
+
+1. **Autonomia**: o usuário pode se deslocar com mais independência, reduzindo a necessidade de auxílio constante de terceiros.
+
+2. **Segurança**: a detecção de pessoas, veículos e placas de sinalização ajuda a evitar situações de risco no trânsito e em espaços públicos.
+
+3. **Acessibilidade**: o feedback sonoro transforma informações visuais em mensagens auditivas claras, permitindo melhor compreensão do ambiente.
+
+4. **Praticidade**: o formato modular, leve e portátil, permite que o acessório seja acoplado a qualquer óculos, garantindo ergonomia e conforto no uso diário.
+
+5. **Inclusão**: o dispositivo contribui para a integração social, oferecendo às pessoas com deficiência visual maior liberdade para realizar atividades cotidianas em ambientes externos.
+
+O acessório assistivo desenvolvido neste trabalho busca resolver um conjunto de problemas enfrentados por pessoas com deficiência visual em seu cotidiano. A locomoção autônoma em ambientes urbanos apresenta desafios significativos, uma vez que a presença de veículos, obstáculos e sinalizações pouco acessíveis aumenta o risco de acidentes e limita a segurança desses indivíduos. Além disso, informações importantes, como placas de orientação e faixas de pedestres, não são facilmente percebidas, gerando dependência constante de terceiros para a realização de tarefas simples. As tecnologias assistivas tradicionais, como bengalas e cães-guia, oferecem suporte apenas na identificação de obstáculos físicos imediatos, mas não fornecem informações contextuais sobre o ambiente. Nesse sentido, o dispositivo proposto atende às necessidades de maior autonomia, segurança e acesso à informação, contribuindo para a inclusão e a independência do usuário em espaços públicos.
 
 ## Publico Alvo
 
