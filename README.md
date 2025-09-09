@@ -38,7 +38,10 @@ As expressões faciais são um dos principais meios de comunicação não verbal
 
 -->
 
-<!-- ESSE É O NOSSO PROJETO! -->
+<!-- 
+ESSE ABAIXO É O NOSSO PROJETO! 
+Precisa ser finalizado os 3 ultimos tópicos da introdução
+-->
 O acessório assistivo tem como propósito ampliar a autonomia e a segurança de pessoas com deficiência visual durante a locomoção em ambientes urbanos. Por meio de visão computacional, reconhecimento de textos e síntese de voz, o dispositivo possibilita que o usuário receba informações em tempo real sobre elementos relevantes ao seu redor, facilitando a orientação e promovendo maior inclusão social.
 
 Os principais benefícios oferecidos aos usuários são:
