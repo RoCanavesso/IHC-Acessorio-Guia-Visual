@@ -4,12 +4,12 @@ Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), 
 
 Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Guia Visual: SIstema de Detecção de Objetos para Deficientes Visuais** sob orientação do Professor **Isaac Jesus da Silva** e desenvolvido pelos seguintes alunos:
 
-- Rômulo Carneiro de Oliveira Canavesso
-- Lucas Antunes Sampaio
+- Rômulo Carneiro de Oliveira Canavesso - RA: 24.122.093-8
+- Lucas Antunes Sampaio - RA: 24.122.056-5
 
 ## Resumo
 
-O presente trabalho propõe o desenvolvimento de um website voltado à divulgação e comercialização de um protótipo assistivo criado para pessoas com deficiência visual. O produto em questão consiste em um acessório inteligente de óculos baseado em visão computacional, capaz de detectar elementos do ambiente urbano como pessoas, veículos e placas de sinalização e transmitir essas informações ao usuário por meio de feedback sonoro em tempo real. O site terá como objetivo apresentar as funcionalidades do dispositivo, demonstrar seu funcionamento por meio de descrições interativas e recursos multimídia, além de fornecer uma interface intuitiva para potenciais interessados. Dessa forma, busca-se aplicar princípios de Interação Humano-Computador (IHC) no design e na usabilidade da plataforma, de modo a garantir clareza, acessibilidade e engajamento na apresentação da tecnologia desenvolvida no Trabalho de Conclusão de Curso.
+Este trabalho apresenta o desenvolvimento de um protótipo assistivo para deficientes visuais, concebido como um acessório acoplável a qualquer óculos, com o objetivo de ampliar a autonomia e a segurança na locomoção. O sistema utiliza visão computacional e aprendizado de máquina, empregando o modelo YOLOv8 para detecção de pessoas e veículos, aliado ao Tesseract OCR para reconhecimento de textos em placas e sinalizações. A implementação será realizada em uma Raspberry Pi 5, integrada a câmeras, fone de ouvido e estrutura confeccionada em impressão 3D, assegurando portabilidade e ergonomia. As informações captadas são processadas em tempo real e transmitidas ao usuário por meio de feedback sonoro, de forma clara e objetiva.
 
 ## Introdução
 
@@ -23,41 +23,47 @@ O presente trabalho propõe o desenvolvimento de um website voltado à divulgaç
 
 -->
 
-<!--
+#### Propósito e Benefícios
+O projeto tem como propósito desenvolver um **sistema assistivo para pessoas com deficiência visual**, em formato de **acessório acoplável a qualquer óculos**.  
+Os principais benefícios oferecidos aos usuários são:  
+- **Maior autonomia** na locomoção em ambientes urbanos.  
+- **Segurança** ao identificar elementos críticos do cenário, como pessoas, veículos e placas.  
+- **Acesso à informação** por meio de leitura de textos em placas e sinalizações.  
+- **Praticidade e ergonomia**, já que o protótipo é portátil e de fácil uso.  
 
-ESSA É A PARTE DO PEDRO, TOMAR COMO REFERÊNCIA!!!
+#### Problemas e Necessidades Atendidas
+O produto busca resolver desafios enfrentados por pessoas com deficiência visual, tais como:  
+- Dificuldade de se locomover com independência em ruas e vias públicas.  
+- Riscos associados a obstáculos como veículos, sinalizações e faixas de pedestres.  
+- Necessidade de compreender informações textuais presentes em placas e orientações.  
+- Falta de soluções acessíveis, portáteis e de baixo custo voltadas para mobilidade urbana.  
 
-A criação de datasets de imagens rotuladas é uma etapa essencial em projetos de visão computacional, especialmente no contexto de reconhecimento facial e detecção de emoções. No entanto, esse processo é, em geral, demorado e trabalhoso, exigindo classificação manual de uma grande quantidade de imagens antes que seja possível iniciar o treinamento automático de modelos de aprendizado de máquina. Este projeto busca explorar alternativas que tornem esse processo mais ágil, confiável e acessível. Ao minimizar o custo produtivo da coleta e rotulagem inicial, é possível direcionar mais atenção à curadoria e à qualidade das classificações, aspecto relevante quando se trata de emoções, que são frequentemente ambíguas e subjetivas à interpretação humana.
+#### Características e Funcionalidades
+O sistema oferece as seguintes funcionalidades principais:  
+- **Detecção em tempo real** de pessoas e veículos utilizando visão computacional.  
+- **Reconhecimento de textos** em placas e sinalizações por meio de OCR.  
+- **Feedback sonoro imediato**, transmitido ao usuário via fone de ouvido.  
+- **Interface simples de ativação**, projetada como botão físico acoplado ao óculos.  
+- **Portabilidade**, garantindo ergonomia e conforto ao usuário durante a utilização.  
 
-As expressões faciais são um dos principais meios de comunicação não verbal, permitindo a manifestação e a interpretação de sentimentos mesmo na ausência da fala. Este trabalho propõe o desenvolvimento de uma ferramenta que automatize a criação de datasets de expressões faciais humanas, associadas a diferentes emoções, com foco específico em sessões reais de jogos digitais. Diferente de abordagens existentes, que dependem de jogos específicos que instruem o jogador a imitar emoções pré-definidas, a ferramenta aqui proposta visa capturar expressões espontâneas, registradas naturalmente por uma facecam enquanto o jogador interage com qualquer jogo eletrônico. Ao relacionar essas expressões ao contexto do que está sendo exibido na tela, busca-se construir conjuntos de dados mais representativos e aplicáveis a cenários reais.
+#### Tecnologias e Ferramentas Utilizadas
+O projeto faz uso das seguintes tecnologias e ferramentas computacionais:  
+- **YOLOv8 (Ultralytics)** → Detecção de pessoas e veículos.  
+- **Tesseract OCR** → Leitura e reconhecimento de textos em placas.  
+- **gTTS (Google Text-to-Speech)** → Geração de feedback sonoro.  
+- **OpenCV** → Processamento de imagens e suporte à visão computacional.  
+- **Datasets públicos (COCO, Open Traffic Lights, entre outros)** para treinamento e testes.  
+- **Plataforma Raspberry Pi 5** → Execução embarcada do sistema.  
+- **Estrutura em impressão 3D** para fixação dos componentes ao óculos.
+- **Webcam** para a captura das imagens em tempo real.
+- **Botão** para interação com o protótipo.
 
-- Webcam: Será utilizada uma câmera voltada para computadores, que possua resolução de no mínimo 720p, para captura das expressões faciais do usuário. A webcam foi escolhida em relação a outros tipos de câmeras pelo seu preço, pela facilidade de utilização e pela portabilidade. Levamos em conta na escolha, também, pois já possuímos esse material em nossas residências.
-- Computador: Utilizaremos um computador ou notebook que possuam no mínimo as seguintes especificações: processador i5-8400 (ou equivalente/melhor) e 16 GB de memória RAM. Usaremos essas máquinas para realizar a programação, design e desenvolvimento do projeto, assim como seus testes e correções. Também o utilizaremos como um artifício para teste e prototipação em jogos, para identificar e definir as expressões faciais do usuário. Utilizaremos o computador para testes e não videogames, pois a interface da aplicação estará no próprio aparelho, facilitando a captura.
-- Dataset: Datasets contendo imagens de expressões faciais serão utilizados para a realização da comparação e identificação dessas expressões. A intenção é utilizar datasets já disponíveis, para otimizar e agilizar o processo de desenvolvimento do nosso projeto. Alguns datasets recomendados incluem: Kaggle - Face Expression Recognition Dataset e DFEW (Dynamic Facial Expression in-the-Wild).
-- IA: Utilizaremos uma IA que consiga ser alimentada de modo a analisar o contexto presente na tela e reconhecer corretamente a relação entre a expressão do indivíduo e o contexto que se apresenta. Algumas IAs que podem ser utilizadas são: FER - Facial Expression Recognition e MediaPipe.
-
--->
-
-<!-- 
-ESSE ABAIXO É O NOSSO PROJETO! 
-Precisa ser finalizado os 3 ultimos tópicos da introdução
-Eu fiz baseado no nosso produto de tcc, mas eu nao sei se ele quer que descreva na introdução o prototipo do tcc ou o site que iremos fazer, ou os dois
--->
-O acessório assistivo tem como propósito ampliar a autonomia e a segurança de pessoas com deficiência visual durante a locomoção em ambientes urbanos. Por meio de visão computacional, reconhecimento de textos e síntese de voz, o dispositivo possibilita que o usuário receba informações em tempo real sobre elementos relevantes ao seu redor, facilitando a orientação e promovendo maior inclusão social.
-
-Os principais benefícios oferecidos aos usuários são:
-
-1. **Autonomia**: o usuário pode se deslocar com mais independência, reduzindo a necessidade de auxílio constante de terceiros.
-
-2. **Segurança**: a detecção de pessoas, veículos e placas de sinalização ajuda a evitar situações de risco no trânsito e em espaços públicos.
-
-3. **Acessibilidade**: o feedback sonoro transforma informações visuais em mensagens auditivas claras, permitindo melhor compreensão do ambiente.
-
-4. **Praticidade**: o formato modular, leve e portátil, permite que o acessório seja acoplado a qualquer óculos, garantindo ergonomia e conforto no uso diário.
-
-5. **Inclusão**: o dispositivo contribui para a integração social, oferecendo às pessoas com deficiência visual maior liberdade para realizar atividades cotidianas em ambientes externos.
-
-O acessório assistivo desenvolvido neste trabalho busca resolver um conjunto de problemas enfrentados por pessoas com deficiência visual em seu cotidiano. A locomoção autônoma em ambientes urbanos apresenta desafios significativos, uma vez que a presença de veículos, obstáculos e sinalizações pouco acessíveis aumenta o risco de acidentes e limita a segurança desses indivíduos. Além disso, informações importantes, como placas de orientação e faixas de pedestres, não são facilmente percebidas, gerando dependência constante de terceiros para a realização de tarefas simples. As tecnologias assistivas tradicionais, como bengalas e cães-guia, oferecem suporte apenas na identificação de obstáculos físicos imediatos, mas não fornecem informações contextuais sobre o ambiente. Nesse sentido, o dispositivo proposto atende às necessidades de maior autonomia, segurança e acesso à informação, contribuindo para a inclusão e a independência do usuário em espaços públicos.
+#### Contexto de Uso
+- **Usuários:** Pessoas com deficiência visual que necessitam de auxílio em ambientes urbanos.  
+- **Tarefas:** Locomoção segura, identificação de obstáculos, compreensão de placas e sinalizações.  
+- **Equipamentos (hardware):** Raspberry Pi 5, duas webcams, fone de ouvido, botão físico, suporte em óculos confeccionado em 3D.  
+- **Equipamentos (software):** YOLOv8, Tesseract OCR, OpenCV, gTTS, bibliotecas auxiliares em Python.  
+- **Ambiente físico e social:** Utilização em espaços urbanos (ruas, avenidas, calçadas e áreas públicas), promovendo **inclusão social** e **acessibilidade**.  
 
 ## Publico Alvo
 
@@ -66,8 +72,8 @@ O acessório assistivo desenvolvido neste trabalho busca resolver um conjunto de
 - Descreva as caracteristicas demográficas, comportamentais, psicográficas ou geográficas deste público alvo que o torna mais propenso a se interessar pelo que está sendo oferecido neste projeto ou serviço.
 
 -->
-O público-alvo deste projeto são pessoas e empresas cujo trabalho impactam os seus clientes emocionalmente, como empresas de jogos, produtores de filmes e principalmente desenvolvedores que possuam projetos de DeepLearning que requer treinamento de emoções faciais.Tanto grandes estúdios de jogos quanto produtores de filmes como foco principal o desenvolvimento de entretenimento e buscam formas de aumentar o engajamento. Elas se beneficiam do projeto por promover uma maior aproximação entre o produto e consumidor, permitindo customizações mais precisas e experiências mais envolventes. Em termos de características, esse público é composto por organizações que valorizam inovação, adaptação às tendências do mercado e feedback direto do usuário, sendo mais propensas a investir em ferramentas que aumentem a retenção e a satisfação do seu público.
-Enquanto a desenvolvedores de deeplearning, é comum uma etapa para desenvolvimento de uma base de dados própria porém essa atividade é extensa e trabalhosa. Este projeto como um objetivo secundário, facilitar o desenvolvimento de novas bases de dados visando encurtar o tempo necessário para a criação de um dataset original.
+
+O público-alvo deste trabalho são pessoas com deficiência visual, que enfrentam desafios relacionados à mobilidade e à autonomia em ambientes urbanos. Esse grupo inclui indivíduos com baixa visão e aqueles com cegueira total, que necessitam de suporte tecnológico para identificar obstáculos, compreender sinalizações e se locomover com maior segurança. Além dos usuários finais, o sistema também pode ser de interesse para instituições de apoio à inclusão social, organizações voltadas à acessibilidade, e pesquisadores da área de tecnologias assistivas, que buscam soluções portáteis, acessíveis e de fácil utilização no cotidiano.
 
 ## Análise de concorrência
 <!--
@@ -82,32 +88,54 @@ Enquanto a desenvolvedores de deeplearning, é comum uma etapa para desenvolvime
 9. Extraia pontos positivos e faça recomendações.
 -->
 
-1. Há vários sites que permitem a criação, download e upload de datasets, e dentre eles os mais conhecidos são o Kaggle, Hugging Face e Nevermind, onde Kaggle e Hugging Face são plataformas online onde os usuários podem, entre outras coisas, fazer download e upload de datasets. Já Nevermind é um jogo de suspence psicológico que usa a detecção de expressões faciais como artífice que torna o jogo.
-2. 
-   - Kaggle: Plataforma com foco em Ciência de Dados e Machine Learning, cuja função primária são suas competições, onde times ou indivíduos podem enviar seus modelos para resolver problemas específicos e ganhar prêmios, além disso ele oferece datasets, notebooks e um fórum da comunidade. Os usuários podem fazer download ou upload de datasets e notebooks;<br>
-     <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/184c7fcb-7920-4c62-a615-d0173ccb2087" />
-     
-   - Hugging Face: Uma empresa responsável pelo desenvolvimento de ferramentas e recursos para o desenvolvimento de plicações com Machine Learning. Sua plataforma permite que os usuários colaborem em modelos de Machine Learning e datasets;<br>
-     <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/305a3b5f-e3a4-4e9f-b333-70fefbb3405f" />
-   
-   - Nevermind: um jogo de suspence psicológico que adapta a dificuldade, visuais e som de acordo com o estresse detectado na expressão facial do jogador.<br>
-     <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/2ef14b47-399c-45e6-89f7-1723d66e86a5" />
+#### 1. Principais concorrentes
 
-3.
-   - Kaggle: Competição entre usuários utilizando modelos de Machine Learning; upload e download de datasets que podem ser públicos ou privados; upload e download de notebooks que permitem o compartilhamento de técnicas de criação de códigos e análise de dados e cursos de aprendizado de ciência de dados;
-   - Hugging Face: Biblioteca Transformers que simplifica o uso de modelos transformer para geração de texto e tradução; upload e download de datasets, principalmente relacionados a modelos de Machine Learning e NLP; hub de modelos que funciona como repositório de modelos pré-treinados para tarefas relacionadas a NLP, visão computacional e áudio;
-   - Nevermind: Uso de expressões faciais do jogador, captadas a partir da webcam, para alterar a jogabilidade do jogo, mudando a dificuldade, visuais e sons; O jogo se torna mais difícil conforme o estresse emocional do jogador aumenta, onde medo e ansiedade tem um foco maior.
-4. A Kaggle possui uma interface minimalista e ao mesmo tempo cheia de informações, apesar de tanto texto a navegação é intuitiva.A Kaggle não foca apenas em datasets, é um ecossistema de cientistas que publicam seus estudos, com modelos e datasets utilizados e por consequência, acada se tornando um site comum para download de datasets, tendo, inclusive, uma aba dedicada apenas a datasets.
-5. A kaggle baseia-se no plano freemium, onde todas as principais ferramentas são disponibilizadas de forma gratuita e a monetização vem de empresas que se interessam em criar suas próprias competições na plataforma, além da plataforma fazer parcerias com empresas como google cloud e receber uma porcentagem do prêmio das competições citadas anteriormente. Resumidamente, usuários individuais não precisam pagar um plano para ter acesso total às funcionalidades do site, mas empresas devem pagar pelo suporte da kaggle para hospedar competições pagas e para utilizar de alguma ferramenta da kaggle para projetos empresariais.
-6. Na plataforma da Kaggle não existe explicitamente uma área de avaliação, mas a coleta é realizada de forma rápida distribuindo questionário de avaliação para a comunidade da kaggle fora da plataforma, opiniões de usuários em redes sociais. Também, após uma competição hosedada na kaggle, existe um formulário curto para receber o feedback daquela função. De forma um pouco mais discreta, existe a opção de reportar bugs ou falhas no sistema, que serve pode servir como crítica construtiva.
-7. O mercado de Inteligência artificial vem crescendo rapidamente e de maneira desenfreada, juntamente com a IA, os datasets tornam-se fatores principais nesse meio. Desta maneira, a busca por treinamento, machine learning, só tende a aumentar e ganhar cada vez mais o mercado no mundo. Com isso, a procura por datasets / modelos treinados permite que áreas relacionadas consigam dominar.
-8. O Kaggle possui um acervo enorme de datasets e informações, cerca de dezenas de milhares (de acordo com o site https://www.innovatiana.com/en/post/kaggle-for-datasets?utm_source=chatgpt.com), isso se dá pela grande quantidade de acessos e por ser open source. Este modelo vem crescendo constantemente no mercado, com mais e mais pessoas utilizando as máquinas para aprendizagem e inteligências artificiais. Com isso, a possibilidade de crescimento de Kaggle é muito grande, além disso, é a porta de entrada para muitos ourtos artifícios de acervos e disponibilização de datasets.
-9. Pontos positivos:
-<ul>
- <li>A plataforma Kaggle oferece muitos datasets de diversos tipos, de forma open-source;</li>
- <li>Tais datasets são disponibilizados com extensões fáceis de serem utilizadas, como CSV, Json;</li>
- <li>É um site ativo, com manutenção e adição de informações recentes,</li>
-</ul>
+- **OrCam MyEye**: módulo compacto acoplado aos óculos; IA para leitura de textos e reconhecimento de rostos/objetos; áudio descritivo em tempo real; não mede distância.
+
+- **Envision Glasses**: baseado em Google Glass 2; câmera com OCR; reconhecimento de pessoas/objetos; foco em leitura e orientação; integra apps móveis e nuvem.
+
+- **biped.ai**: dispositivo tipo colar (vestível no pescoço); visão estéreo 3D; detecção de obstáculos e cálculo de distância; feedback sonoro; áudio não disponível em português.
+
+#### 2. Informações dos concorrentes
+- **OrCam MyEye**:
+  - **Forma**: módulo que se acopla aos óculos.
+  - **Funções**: leitura de textos impressos; reconhecimento de rostos/objetos; áudio em tempo real.
+  - **Limitação**: não mede distâncias; referência consolidada em acessibilidade.
+
+- **Envision Glasses**:
+  - **Forma**: óculos inteligentes (Google Glass 2).
+  - **Funções**: OCR embutido; reconhecimento de pessoas/objetos; leitura/tradução; integração com apps/nuvem.
+  - **Posicionamento**: ideal para leitura e orientação contextual.
+
+- **biped.ai**:
+  - **Forma**: vestível no pescoço (colar).
+  - **Funções**: visão estéreo 3D; detecção de buracos, postes, carros; distância em tempo real; feedback por fones.
+  - **Limitação**: sem áudio em português (impacto direto na adoção no Brasil).
+
+#### 3. Características e funcionalidades dos concorrentes
+
+| Critério                  | OrCam MyEye               | Envision Glasses                 | biped.ai                       |
+| ------------------------- | ------------------------- | -------------------------------- | ------------------------------ |
+| **Formato**               | Módulo acoplado ao óculos | Óculos inteligentes (Glass 2)    | Colar/arnês no pescoço         |
+| **Leitura (OCR)**         | Forte (texto impresso)    | Forte (OCR + tradução)           | Secundária                     |
+| **Reconhecimento**        | Rostos/objetos            | Pessoas/objetos/cenas            | Obstáculos em movimento        |
+| **Navegação / Distância** | —                         | Limitada (orientação contextual) | **Forte** (3D + distância)     |
+| **Feedback**              | Áudio descritivo          | Áudio descritivo                 | Áudio (espacial/orientativo)   |
+| **Integrações**           | —                         | **Apps + Nuvem**                 | —                              |
+| **Idiomas**               | Amplo                     | Amplo                            | **Sem PT-BR**                  |
+
+#### 4. Avaliação de experiência do usuário (UX)
+- **OrCam MyEye**:
+  - **Prós**: muito discreto; preserva o óculos do usuário; fluxo rápido para leitura e identificação pontual.
+  - **Contras**: sem noção de profundidade/distância; experiência focada em leitura/identificação, não em navegação.
+
+- **Envision Glasses**:
+  - **Prós**: experiência “tudo-em-um” de leitura e descrição; integra com apps/nuvem; boa curva de aprendizado para tarefas diárias.
+  - **Contras**: dependência de hardware dedicado; pode ser menos discreto; experiência de navegação não é o foco.
+
+- **biped.ai**:
+  - **Prós**: UX centrada em mobilidade ativa e prevenção de colisões; áudio orientativo com distância em tempo real.
+  - **Contras**: formato colar pode incomodar alguns usuários; ausência de PT-BR diminui acessibilidade local.
 
 ### Personas
 <!--
