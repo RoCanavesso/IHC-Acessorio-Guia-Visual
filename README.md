@@ -136,6 +136,47 @@ O público-alvo deste trabalho são pessoas com deficiência visual, que enfrent
 - **biped.ai**:
   - **Prós**: UX centrada em mobilidade ativa e prevenção de colisões; áudio orientativo com distância em tempo real.
   - **Contras**: formato colar pode incomodar alguns usuários; ausência de PT-BR diminui acessibilidade local.
+  
+## 5) Preços e Modelos de Negócio
+- **OrCam MyEye:** dispositivo premium, custo elevado; modelo de aquisição única do hardware.  
+- **Envision Glasses:** disponível em diferentes edições (Read, Home, Pro), com pacotes de recursos distintos; adota também modelo de **atualizações pagas** para novos recursos.  
+- **biped.ai:** dispositivo dedicado em formato de colar; política de preços menos transparente, com tendência a planos de software e atualizações contínuas.  
+
+## 6) Satisfação e Opiniões dos Usuários
+- **OrCam MyEye:** feedback positivo em leitura de textos e reconhecimento de rostos; críticas ao preço elevado e à ausência de recursos de navegação espacial.  
+- **Envision Glasses:** opiniões majoritariamente positivas quanto à leitura/tradução de textos e integração com aplicativos móveis; limitações apontadas no custo e na autonomia da bateria.  
+- **biped.ai:** considerado promissor para navegação urbana; usuários elogiam a detecção de obstáculos, mas destacam a ausência de suporte em **português** como limitação relevante.  
+
+## 7) Padrões e Tendências do Mercado
+- **Integração IA + vestíveis**: foco em unificar leitura, reconhecimento e navegação em um só produto.  
+- **Feedback sonoro contextual**: mensagens rápidas e direcionais (ex.: avisos de obstáculos).  
+- **Processamento on-device**: redução da dependência de nuvem, garantindo privacidade e baixa latência.  
+- **Customização local**: idiomas e sinalizações específicas por país (no Brasil, PT-BR e elementos do trânsito local são diferenciais).  
+- **Modelos de atualização contínua**: tendência crescente de cobrar por upgrades de software além do hardware inicial.  
+
+## 8) Relatório e Sumário dos Resultados
+- O mercado atual se divide entre **leitura/descrição** (OrCam, Envision) e **navegação ativa** (biped.ai).  
+- Há uma lacuna para um dispositivo de **baixo custo**, **acoplável a qualquer óculos**, com suporte em **português**.  
+- O protótipo desenvolvido neste TCC se posiciona para preencher essa lacuna ao oferecer:  
+  - **OCR em PT-BR**,  
+  - **Detecção urbana de pessoas e veículos**,  
+  - **Alertas sonoros em tempo real**,  
+  - **Custo reduzido** por meio de webcams e estrutura em impressão 3D.  
+
+## 9) Pontos Positivos e Recomendações
+**Inspirações dos concorrentes:**  
+- **OrCam MyEye:** formato acoplável discreto.  
+- **Envision Glasses:** fluxo de OCR fluido e integração com aplicativos.  
+- **biped.ai:** alertas direcionais e cálculo de distância em tempo real.  
+
+**Recomendações para evolução do protótipo:**  
+1. **Aprimorar navegação básica** com uso de visão estéreo (duas webcams).  
+2. **Garantir baixo custo** explorando componentes acessíveis e impressão 3D.  
+3. **Mensagens sonoras em português**, claras, curtas e com baixa latência.  
+4. **Modos de operação**: (a) Leitura/OCR, (b) Detecção urbana, (c) Navegação básica.  
+5. **Privacidade by design**: processamento local como padrão.  
+6. **Testes práticos com usuários reais** para validar UX e reduzir falsos alertas.  
+7. **Planejamento de roadmap** para expandir classes detectadas (faixas de pedestre, placas brasileiras, semáforos).
 
 ### Personas
 <!--
