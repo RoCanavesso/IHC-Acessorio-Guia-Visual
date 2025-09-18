@@ -9,7 +9,7 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Gui
 
 ## Resumo
 
-Este trabalho apresenta o desenvolvimento de um protótipo assistivo para deficientes visuais, concebido como um acessório acoplável a qualquer óculos, com o objetivo de ampliar a autonomia e a segurança na locomoção. O sistema utiliza visão computacional e aprendizado de máquina, empregando o modelo YOLOv8 para detecção de pessoas e veículos, aliado ao Tesseract OCR para reconhecimento de textos em placas e sinalizações. A implementação será realizada em uma Raspberry Pi 5, integrada a câmeras, fone de ouvido e estrutura confeccionada em impressão 3D, assegurando portabilidade e ergonomia. As informações captadas são processadas em tempo real e transmitidas ao usuário por meio de feedback sonoro, de forma clara e objetiva.
+O presente trabalho propõe o desenvolvimento de um website voltado à divulgação e comercialização de um protótipo assistivo criado para pessoas com deficiência visual. O produto em questão consiste em um acessório inteligente baseado em visão computacional que é acoplado em qualquer óculos, contendo duas câmeras capazes de detectar elementos do ambiente urbano como pessoas, veículos e placas de sinalização, assim transmitir essas informações ao usuário por meio de feedback sonoro em tempo real. O site terá como objetivo apresentar as funcionalidades do dispositivo, demonstrar seu funcionamento por meio de descrições interativas e recursos multimídia, além de fornecer uma interface intuitiva para potenciais interessados. Dessa forma, busca-se aplicar princípios de Interação Humano-Computador (IHC) no design e na usabilidade da plataforma, de modo a garantir clareza, acessibilidade e engajamento na apresentação da tecnologia desenvolvida no Trabalho de Conclusão de Curso.
 
 ## Introdução
 
@@ -24,46 +24,45 @@ Este trabalho apresenta o desenvolvimento de um protótipo assistivo para defici
 -->
 
 #### Propósito e Benefícios
-O projeto tem como propósito desenvolver um **sistema assistivo para pessoas com deficiência visual**, em formato de **acessório acoplável a qualquer óculos**.  
-Os principais benefícios oferecidos aos usuários são:  
-- **Maior autonomia** na locomoção em ambientes urbanos.  
-- **Segurança** ao identificar elementos críticos do cenário, como pessoas, veículos e placas.  
-- **Acesso à informação** por meio de leitura de textos em placas e sinalizações.  
-- **Praticidade e ergonomia**, já que o protótipo é portátil e de fácil uso.  
+O site tem como propósito divulgar e comercializar o acessório assistivo para pessoas com deficiência visual, apresentando suas funcionalidades e diferenciais de forma clara, acessível e interativa. Além disso, busca proporcionar ao público-alvo e a potenciais compradores uma experiência de navegação simples, informativa e engajante. Os principais benefícios do website são:
+
+- **Clareza na comunicação:** apresentar o funcionamento do dispositivo por meio de textos explicativos, imagens e recursos multimídia;
+- **Acessibilidade digital:** garantir que o conteúdo seja compatível com leitores de tela e que possua design responsivo;
+- **Engajamento:** atrair o usuário com uma interface amigável e intuitiva, aumentando o interesse pelo produto;
+- **Facilidade de aquisição:** disponibilizar informações para contato e opções de compra.
 
 #### Problemas e Necessidades Atendidas
-O produto busca resolver desafios enfrentados por pessoas com deficiência visual, tais como:  
-- Dificuldade de se locomover com independência em ruas e vias públicas.  
-- Riscos associados a obstáculos como veículos, sinalizações e faixas de pedestres.  
-- Necessidade de compreender informações textuais presentes em placas e orientações.  
-- Falta de soluções acessíveis, portáteis e de baixo custo voltadas para mobilidade urbana.  
+O nosso site busca atender a:
+- Falta de informações centralizadas sobre o acessório e suas funcionalidades;
+- Dificuldade de divulgação de um produto voltado a um público específico;
+- Necessidade de acessibilidade em ambientes digitais para atingir tanto pessoas com deficiência visual quanto familiares, cuidadores e instituições;
+- Carência de canais formais de compra para tecnologias assistivas inovadoras.
 
 #### Características e Funcionalidades
-O sistema oferece as seguintes funcionalidades principais:  
-- **Detecção em tempo real** de pessoas e veículos utilizando visão computacional.  
-- **Reconhecimento de textos** em placas e sinalizações por meio de OCR.  
-- **Feedback sonoro imediato**, transmitido ao usuário via fone de ouvido.  
-- **Interface simples de ativação**, projetada como botão físico acoplado ao óculos.  
-- **Portabilidade**, garantindo ergonomia e conforto ao usuário durante a utilização.  
+O site possui as seguintes características e funcionalidades:  
+
+- **Página inicial (Home):** apresentação clara do acessório e de sua proposta.
+- **Seção de funcionalidades:** descrição detalhada do que o acessório é capaz de fazer, com recursos visuais e multimídia;
+- **Demonstração interativa:** uso de imagens, animações ou vídeos que mostram o acessório em funcionamento;
+- **Área de benefícios:** apresentação das vantagens práticas para o usuário final;
+- **Seção de contato e comercialização:** formulário de contato, informações de compra e links para redes sociais;
+- **Design acessível:** compatibilidade com leitores de tela, contraste adequado, zoom e navegação simplificada;
+- **Layout responsivo:** adaptação para computadores, tablets e smartphones.
 
 #### Tecnologias e Ferramentas Utilizadas
-O projeto faz uso das seguintes tecnologias e ferramentas computacionais:  
-- **YOLOv8 (Ultralytics)** → Detecção de pessoas e veículos.  
-- **Tesseract OCR** → Leitura e reconhecimento de textos em placas.  
-- **gTTS (Google Text-to-Speech)** → Geração de feedback sonoro.  
-- **OpenCV** → Processamento de imagens e suporte à visão computacional.  
-- **Datasets públicos (COCO, Open Traffic Lights, entre outros)** para treinamento e testes.  
-- **Plataforma Raspberry Pi 5** → Execução embarcada do sistema.  
-- **Estrutura em impressão 3D** para fixação dos componentes ao óculos.
-- **Webcam** para a captura das imagens em tempo real.
-- **Botão** para interação com o protótipo.
+O site faz uso das seguintes tecnologias e ferramentas computacionais:  
+
+- **Frontend:** HTML5, CSS3, JavaScript;
+- **Frameworks de design:** Bootstrap para responsividade;
+- **Recursos multimídia:** integração de imagens, vídeos e animações para demonstrar o funcionamento do acessório;
+- **Acessibilidade digital:** uso de boas práticas de WAI-ARIA e testes com leitores de tela;
+- **Versionamento:** GitHub para controle de versões do site.
 
 #### Contexto de Uso
-- **Usuários:** Pessoas com deficiência visual que necessitam de auxílio em ambientes urbanos.  
-- **Tarefas:** Locomoção segura, identificação de obstáculos, compreensão de placas e sinalizações.  
-- **Equipamentos (hardware):** Raspberry Pi 5, duas webcams, fone de ouvido, botão físico, suporte em óculos confeccionado em 3D.  
-- **Equipamentos (software):** YOLOv8, Tesseract OCR, OpenCV, gTTS, bibliotecas auxiliares em Python.  
-- **Ambiente físico e social:** Utilização em espaços urbanos (ruas, avenidas, calçadas e áreas públicas), promovendo **inclusão social** e **acessibilidade**.  
+- **Usuários:** potenciais compradores do nosso produto (pessoas com deficiência visual, familiares, cuidadores, instituições de ensino e saúde, etc).
+- **Tarefas:** acessar informações sobre o produto, entender seu funcionamento, avaliar benefícios, assistir demonstrações e realizar contato com fornecedor ou compra do produto.
+- **Equipamentos (hardware e software):** computadores, notebooks, tablets e smartphones conectados à internet, navegadores modernos compatíveis com os padrões web.
+- **Ambiente físico e social:** navegação em contextos variados (casa, escola, trabalho, instituições), tanto por usuários finais quanto por familiares e profissionais da área de acessibilidade. O ambiente social é marcado pela necessidade de promover inclusão e fornecer soluções tecnológicas que ampliem a independência e a qualidade de vida de pessoas com deficiência visual.
 
 ## Publico Alvo
 
@@ -73,7 +72,9 @@ O projeto faz uso das seguintes tecnologias e ferramentas computacionais:
 
 -->
 
-O público-alvo deste trabalho são pessoas com deficiência visual, que enfrentam desafios relacionados à mobilidade e à autonomia em ambientes urbanos. Esse grupo inclui indivíduos com baixa visão e aqueles com cegueira total, que necessitam de suporte tecnológico para identificar obstáculos, compreender sinalizações e se locomover com maior segurança. Além dos usuários finais, o sistema também pode ser de interesse para instituições de apoio à inclusão social, organizações voltadas à acessibilidade, e pesquisadores da área de tecnologias assistivas, que buscam soluções portáteis, acessíveis e de fácil utilização no cotidiano.
+O público-alvo do site compreende tanto pessoas com deficiência visual em diferentes níveis (desde baixa visão até a cegueira total) quanto pessoas sem deficiência, que podem se interessar pela inovação tecnológica ou pela aquisição do acessório para familiares, conhecidos, instituições, etc.
+
+Além disso, o acessório pode despertar interesse em instituições de ensino, saúde, acessibilidade e inclusão social, que buscam soluções tecnológicas para ampliar a autonomia de pessoas com deficiência visual. Também se destaca como um objeto de estudo para profissionais e estudantes das áreas de engenharia e ciência da computação, uma vez que envolve a aplicação de visão computacional, aprendizado de máquina e integração de sistemas embarcados, oferecendo oportunidades de pesquisa, inovação e desenvolvimento acadêmico.
 
 ## Análise de concorrência
 <!--
