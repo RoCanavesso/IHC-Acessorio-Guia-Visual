@@ -99,7 +99,7 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
 
 #### 2. Informações dos concorrentes
 - **OrCam MyEye**:
-  - **Forma**: módulo que se acopla aos óculos.
+  - **Forma**: acessório que se acopla aos óculos.
   - **Funções**: leitura de textos impressos; reconhecimento de rostos/objetos; áudio em tempo real.
   - **Limitação**: não mede distâncias; referência consolidada em acessibilidade.
 
@@ -115,28 +115,61 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
 
 #### 3. Características e funcionalidades dos concorrentes
 
-| Critério                  | OrCam MyEye               | Envision Glasses                 | biped.ai                       |
-| ------------------------- | ------------------------- | -------------------------------- | ------------------------------ |
-| **Formato**               | Módulo acoplado ao óculos | Óculos inteligentes (Glass 2)    | Colar/arnês no pescoço         |
-| **Leitura (OCR)**         | Forte (texto impresso)    | Forte (OCR + tradução)           | Secundária                     |
-| **Reconhecimento**        | Rostos/objetos            | Pessoas/objetos/cenas            | Obstáculos em movimento        |
-| **Navegação / Distância** | —                         | Limitada (orientação contextual) | **Forte** (3D + distância)     |
-| **Feedback**              | Áudio descritivo          | Áudio descritivo                 | Áudio (espacial/orientativo)   |
-| **Integrações**           | —                         | **Apps + Nuvem**                 | —                              |
-| **Idiomas**               | Amplo                     | Amplo                            | **Sem PT-BR**                  |
+- **OrCam MyEye**:
+  - **Prós:**
+    - Fornece assistência de deficientes visuais para uso do site
+    - UI minimalista e com fontes grandes para auxílio de leitura
+    - Diversos tipos de mídias demonstrando cada modelo do produto
+    - Densa descrição de cada modelo do produto e suas diferenças
+  - **Contras:**
+    - Apenas tem linguagem em Inglês
+    - Site foca em informações densas sobre a empresa e desnecessárias para o usuário final
+    - Alguns botões e interações que podem ser complexas para uso de deficientes visuais, comprometendo a usabilidade do site
+    - Muitas mídias e propagandas desnecessárias, que dificultam o uso do site e a busca dos produtos
+    - Difícil acessibilidade para compra do produto
+
+- **Envision Glasses**:
+  - **Prós:**
+    - Site tem foco em direcionar o usuário para a compra do produto
+    - Fornece compra online do produto
+    - UI bonita e bem estruturada
+    - Botões e interações fáceis para uso
+    - Fornece imagens e descrições sobre o produto
+    - Apresenta avaliações e comentários de usuários
+  - **Contras:**
+    - Apenas tem linguagem em Inglês
+    - Não fornece assistência de deficientes visuais para uso do site
+    - UI muito colorida, podendo atrapalhar deficientes visuais a ler e compreender o conteúdo do site
+    - Descrição dos recursos e funcionalidades do óculos muito resumida, poderiam oferecem uma aba específica que explique e demonstre melhor o produto
+    - Pouca diversidade de mídia, concentrando-se em imagens do produto
+
+- **biped.ai**:
+  - **Prós:**
+    - Proporciona acessibilidade de linguagens da América do Norte e Europa
+    - Diversas mídias descrevendo o produto, como podcasts, áudios, vídeos, imagens, etc
+    - Textos com fontes grandes, facilitando a leitura para deficientes visuais
+    - Fornece suporte com IA do tipo LLM
+    - Oferece compra online do produto
+    - Oferece descrição do produto
+  - **Contras:**
+    - Não fornece assistência de deficientes visuais para uso do site 
+    - Não oferece outras opções de linguagens além das pertencentes da América do Norte e Europa
+    - UI confusa, densa, cansativa, mal desenvolvida e com cores radiantes
+    - Foca em descrever a empresa e o produto mais do que na venda do produto
+    - Não fornece comparativos entre modelos do produto
 
 #### 4. Avaliação de experiência do usuário (UX)
 - **OrCam MyEye**:
-  - **Prós**: muito discreto; preserva o óculos do usuário; fluxo rápido para leitura e identificação pontual.
-  - **Contras**: sem noção de profundidade/distância; experiência focada em leitura/identificação, não em navegação.
+  - **Prós**: 
+  - **Contras**: 
 
 - **Envision Glasses**:
-  - **Prós**: experiência “tudo-em-um” de leitura e descrição; integra com apps/nuvem; boa curva de aprendizado para tarefas diárias.
-  - **Contras**: dependência de hardware dedicado; pode ser menos discreto; experiência de navegação não é o foco.
+  - **Prós**: 
+  - **Contras**: 
 
 - **biped.ai**:
-  - **Prós**: UX centrada em mobilidade ativa e prevenção de colisões; áudio orientativo com distância em tempo real.
-  - **Contras**: formato colar pode incomodar alguns usuários; ausência de PT-BR diminui acessibilidade local.
+  - **Prós**: 
+  - **Contras**: 
   
 ## 5) Preços e Modelos de Negócio
 - **OrCam MyEye:** dispositivo premium, custo elevado; modelo de aquisição única do hardware.  
