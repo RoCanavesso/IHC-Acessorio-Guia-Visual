@@ -118,7 +118,7 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
 - **OrCam MyEye**:
   - **Prós:**
     - Fornece assistência de deficientes visuais para uso do site
-    - UI minimalista e com fontes grandes para auxílio de leitura
+    - Interface minimalista e com fontes grandes para auxílio de leitura
     - Diversos tipos de mídias demonstrando cada modelo do produto
     - Densa descrição de cada modelo do produto e suas diferenças
   - **Contras:**
@@ -132,14 +132,14 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
   - **Prós:**
     - Site tem foco em direcionar o usuário para a compra do produto
     - Fornece compra online do produto
-    - UI bonita e bem estruturada
+    - Interface bonita e bem estruturada
     - Botões e interações fáceis para uso
     - Fornece imagens e descrições sobre o produto
     - Apresenta avaliações e comentários de usuários
   - **Contras:**
     - Apenas tem linguagem em Inglês
     - Não fornece assistência de deficientes visuais para uso do site
-    - UI muito colorida, podendo atrapalhar deficientes visuais a ler e compreender o conteúdo do site
+    - Interace muito colorida, podendo atrapalhar deficientes visuais a ler e compreender o conteúdo do site
     - Descrição dos recursos e funcionalidades do óculos muito resumida, poderiam oferecem uma aba específica que explique e demonstre melhor o produto
     - Pouca diversidade de mídia, concentrando-se em imagens do produto
 
@@ -154,7 +154,7 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
   - **Contras:**
     - Não fornece assistência de deficientes visuais para uso do site 
     - Não oferece outras opções de linguagens além das pertencentes da América do Norte e Europa
-    - UI confusa, densa, cansativa, mal desenvolvida e com cores radiantes
+    - Interface confusa, densa, cansativa, mal desenvolvida e com cores radiantes
     - Foca em descrever a empresa e o produto mais do que na venda do produto
     - Não fornece comparativos entre modelos do produto
 
