@@ -158,7 +158,7 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
     - Foca em descrever a empresa e o produto mais do que na venda do produto
     - Não fornece comparativos entre modelos do produto
 
-#### 4. Avaliação de experiência do usuário (UX)
+#### 4. Avaliação de experiência do usuário
 
 - **OrCam MyEye**:
   - **Prós**:
