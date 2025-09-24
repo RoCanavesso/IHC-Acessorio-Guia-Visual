@@ -159,17 +159,37 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
     - Não fornece comparativos entre modelos do produto
 
 #### 4. Avaliação de experiência do usuário (UX)
-- **OrCam MyEye**:
-  - **Prós**: 
-  - **Contras**: 
 
-- **Envision Glasses**:
-  - **Prós**: 
+- **OrCam MyEye**:
+  - **Prós**:
+    - Dispositivo leve, confortável de usar, mesmo por cima de mochilas
+    - Interface simples de usar, com curto período de treinamento inicial
+    - Boa percepção de segurança, onde usuários relatam sentir menos estresse ao caminhar
+    - Altamente valorizado em detecção de obstáculos e descrição de ambiente; identificar portas, faixas de pedestres, etc
   - **Contras**: 
+    - Preço considerado muito alto por muitos usuários
+    - Autonomia (duração da bateria) e resistência às condições ambientais (chuva, uso noturno, etc) têm sido mencionadas como pontos de atenção
+    - O dispositivo é vistoso (estilo “colete/backpack”), onde alguns usuários podem se incomodar com visibilidade do equipamento ou com percepção de volumetria
+   
+- **Envision Glasses**:
+  - **Prós**:
+    - Usuários destacam fortemente a funcionalidade de “texto instantâneo”, que permite ler textos imediatamente
+    - Contribui para reduzir a dependência de auxiliares videntes, onde várias pessoas relatam que o uso facilita tarefas rotineiras
+    - Aparência bastante discreta por ter estilo de óculos, onde comparado a outras soluções assistivas, não chama tanto atenção, o que agrada alguns usuários
+    - Boa qualidade de áudio e design confortável em muitos casos
+  - **Contras**:
+    - Baixa performance em condições de pouca luz, usuários encontraram dificuldades de leitura ou reconhecimento de objetos/sinais em ambientes escuros ou mal iluminados
+    - Problemas de precisão do OCR (texto instantâneo) em várias línguas e textos mais complexos
+    - Hardware criticado por ser fragilizado em certas partes, sendo fino ou contendo materiais leves que se desgastam ou quebram facilmente
+    - Dependência de conectividade/recursos externos em alguns casos, relatos de usuários dizem que se estiver sem Wi-Fi ou com sinal fraco, desempenho cai ou recursos não funcionam bem
 
 - **biped.ai**:
-  - **Prós**: 
-  - **Contras**: 
+  - **Prós**:
+    - Alta confiabilidade no reconhecimento de texto, leitura e identificação de objetos, tendo desempenho geralmente visto como “mais preciso” ou mais robusto do que concorrentes
+    - Produto mais maduro tecnologicamente, onde muitos usuários vêem OrCam como referência de qualidade no mercado assistivo
+  - **Contras**:
+    - Custo além do alcance para muitos usuários
+    - Menos atualizações de software percebidas por alguns usuários em comparação com concorrentes em fase mais recente
   
 ## 5) Preços e Modelos de Negócio
 - **OrCam MyEye:** dispositivo premium, custo elevado; modelo de aquisição única do hardware.  
