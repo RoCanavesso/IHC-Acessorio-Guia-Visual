@@ -92,10 +92,25 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
 #### 1. Principais concorrentes
 
 - **OrCam MyEye**: módulo compacto acoplado aos óculos; IA para leitura de textos e reconhecimento de rostos/objetos; áudio descritivo em tempo real; não mede distância.
+<img width="290" height="221" alt="image" src="https://github.com/user-attachments/assets/c8394df0-9ab3-4153-b604-4e0a0047d64d" />
+
+<br>
+<br>
+<br>
 
 - **Envision Glasses**: baseado em Google Glass 2; câmera com OCR; reconhecimento de pessoas/objetos; foco em leitura e orientação; integra apps móveis e nuvem.
+<img width="366" height="233" alt="image" src="https://github.com/user-attachments/assets/c05a1d6d-be77-4fbc-bffa-61b91bb83b03" />
+
+<br>
+<br>
+<br>
 
 - **biped.ai**: dispositivo tipo colar (vestível no pescoço); visão estéreo 3D; detecção de obstáculos e cálculo de distância; feedback sonoro; áudio não disponível em português.
+<img width="386" height="237" alt="image" src="https://github.com/user-attachments/assets/3a4922d5-66d9-4b79-af4d-281fe65b9105" />
+
+<br>
+<br>
+<br>
 
 #### 2. Informações dos concorrentes
 - **OrCam MyEye**:
@@ -191,24 +206,24 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
     - Custo além do alcance para muitos usuários
     - Menos atualizações de software percebidas por alguns usuários em comparação com concorrentes em fase mais recente
   
-## 5) Preços e Modelos de Negócio
+#### 5. Preços e Modelos de Negócio
 - **OrCam MyEye:** dispositivo premium, custo elevado; modelo de aquisição única do hardware.  
 - **Envision Glasses:** disponível em diferentes edições (Read, Home, Pro), com pacotes de recursos distintos; adota também modelo de **atualizações pagas** para novos recursos.  
 - **biped.ai:** dispositivo dedicado em formato de colar; política de preços menos transparente, com tendência a planos de software e atualizações contínuas.  
 
-## 6) Satisfação e Opiniões dos Usuários
+#### 6. Satisfação e Opiniões dos Usuários
 - **OrCam MyEye:** feedback positivo em leitura de textos e reconhecimento de rostos; críticas ao preço elevado e à ausência de recursos de navegação espacial.  
 - **Envision Glasses:** opiniões majoritariamente positivas quanto à leitura/tradução de textos e integração com aplicativos móveis; limitações apontadas no custo e na autonomia da bateria.  
 - **biped.ai:** considerado promissor para navegação urbana; usuários elogiam a detecção de obstáculos, mas destacam a ausência de suporte em **português** como limitação relevante.  
 
-## 7) Padrões e Tendências do Mercado
+#### 7. Padrões e Tendências do Mercado
 - **Integração IA + vestíveis**: foco em unificar leitura, reconhecimento e navegação em um só produto.  
 - **Feedback sonoro contextual**: mensagens rápidas e direcionais (ex.: avisos de obstáculos).  
 - **Processamento on-device**: redução da dependência de nuvem, garantindo privacidade e baixa latência.  
 - **Customização local**: idiomas e sinalizações específicas por país (no Brasil, PT-BR e elementos do trânsito local são diferenciais).  
 - **Modelos de atualização contínua**: tendência crescente de cobrar por upgrades de software além do hardware inicial.  
 
-## 8) Relatório e Sumário dos Resultados
+#### 8. Relatório e Sumário dos Resultados
 - O mercado atual se divide entre **leitura/descrição** (OrCam, Envision) e **navegação ativa** (biped.ai).  
 - Há uma lacuna para um dispositivo de **baixo custo**, **acoplável a qualquer óculos**, com suporte em **português**.  
 - O protótipo desenvolvido neste TCC se posiciona para preencher essa lacuna ao oferecer:  
@@ -217,27 +232,48 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
   - **Alertas sonoros em tempo real**,  
   - **Custo reduzido** por meio de webcams e estrutura em impressão 3D.  
 
-## 9) Pontos Positivos e Recomendações
-**Inspirações dos concorrentes:**  
-- **OrCam MyEye:** formato acoplável discreto.  
-- **Envision Glasses:** fluxo de OCR fluido e integração com aplicativos.  
-- **biped.ai:** alertas direcionais e cálculo de distância em tempo real.  
+#### 9. Pontos Positivos e Recomendações
 
-**Recomendações para evolução do protótipo:**  
-1. **Aprimorar navegação básica** com uso de visão estéreo (duas webcams).  
-2. **Garantir baixo custo** explorando componentes acessíveis e impressão 3D.  
-3. **Mensagens sonoras em português**, claras, curtas e com baixa latência.  
-4. **Modos de operação**: (a) Leitura/OCR, (b) Detecção urbana, (c) Navegação básica.  
-5. **Privacidade by design**: processamento local como padrão.  
-6. **Testes práticos com usuários reais** para validar UX e reduzir falsos alertas.  
-7. **Planejamento de roadmap** para expandir classes detectadas (faixas de pedestre, placas brasileiras, semáforos).
+  #### OrCam MyEye
+  - **O que aproveitar:**  
+    - Minimalismo e uso de fontes grandes.  
+    - Diversidade de mídias demonstrando o produto.  
+    - Descrições detalhadas de modelos.  
+  - **Recomendações:**  
+    - Evitar excesso de informações institucionais.  
+    - Simplificar interações e botões, garantindo que pessoas com deficiência visual consigam navegar facilmente.  
+    - Reduzir propagandas e mídias não essenciais, priorizando clareza no processo de compra.  
+    - Disponibilizar o site em mais idiomas, incluindo português.  
 
-### Personas
+  #### Envision Glasses
+  - **O que aproveitar:**  
+    - Foco claro na conversão (compra online).  
+    - Interface organizada e intuitiva.  
+    - Inclusão de avaliações de usuários.  
+  - **Recomendações:**  
+    - Criar uma seção dedicada às funcionalidades com mais profundidade e exemplos práticos.  
+    - Ajustar contraste e paleta de cores para não prejudicar usuários com baixa visão.  
+    - Ampliar a diversidade de mídias (vídeos de uso real, demonstrações detalhadas).  
+    - Disponibilizar suporte multilíngue para alcançar outros públicos além do inglês.
+    
+  #### biped.ai
+  - **O que aproveitar:**  
+    - Acessibilidade em múltiplas línguas.  
+    - Uso variado de mídias (vídeos, podcasts, áudios).  
+    - Fontes grandes que facilitam leitura.  
+    - Compra online disponível.  
+  - **Recomendações:**  
+    - Simplificar a interface, reduzindo excesso de cores e informações densas.  
+    - Equilibrar descrição institucional com informações práticas sobre compra e uso do produto.  
+    - Incluir comparativos entre versões ou funcionalidades, ajudando o usuário a entender melhor o valor do produto.  
+    - Expandir suporte para idiomas fora da América do Norte e Europa (como português e espanhol latino-americano).  
+
+## Personas
 <!--
 - Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 -->
-#### Persona primária
+### Persona primária
 1. Thiago Alberto Mendes, de 35 anos, é formado em Design de Jogos e atualmente trabalha como Game Director em uma empresa pequena de nome Best Games Studio. Já criou títulos como ATG VI, Armored Lore, Bright Souls. Todos esses jogos possuem características únicas, mas nenhum conseguiu colocar a empresa em posição de destaque. Sua ideia para aumentar o renome da empresa é fazer um título único e inovador.
    Thiago gostaria de adicionar em seu jogo uma mecânica única, que consiga aproximar o jogo e o jogador, de uma forma natural e que adicione elementos de jogabilidade.<br>
    <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/840e1f88-3f76-439c-9127-e4c811bcb35c" />
@@ -249,11 +285,11 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
 3. Gabriel Cavalcante, de 43 anos, trabalha como analista de dados na empresa Mind Plus, onde semanalmente necessita criar datasets para outras empresas, cujo foco principal das mesmas é o desenvolvimento de jogos. Essas empresas necessitam de datasets personalizados que consigam envolver o jogo e o jogador. Gabriel precisa de uma ferramenta que facilite a captação da emoção de pessoas enquanto jogam, dessa maneira consegue saber que tipos de jogos causariam, mais conforto, raiva e medo, a fim de auxiliar na criação de uma experiência customizada.<br>
    <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/8004ef7f-e31e-4866-a6d5-e321e374af5e" />
 
-#### Persona secundária
+### Persona secundária
 1. Lora Barros, de 21 anos, estudante de ciências da computação tem como principal hobby jogar videogame. Costuma jogar jogos únicos com mecânicas diferentes e impactantes. Como está de férias, busca jogar um novo jogo, algo que possa ser controlado e desenvolvido a partir de identificações de rosto, emoções. Para ela, esse seria o ápice da tecnologia nos jogos eletrônicos.
 2. Alberto Bezerra, de 24 anos, estudante de ciências da computação está participando de uma iniciação científica que envolve o desenvolvimento de aplicações com Deep Learning, mas o projeto acabou se estagnando pois o dataset que ele utiliza está desbalanceado. Como está no terceiro semestre da faculdade, ele não compreende completamente o conceito de data augmentation, então ele busca por métodos de criação de datasets usando o próprio rosto para suprir os dados que estão em falta no dataset original.
 
-### Mapa de empatia
+## Mapa de empatia
 
 ![Mapa de empatia](empatia.png)
 
