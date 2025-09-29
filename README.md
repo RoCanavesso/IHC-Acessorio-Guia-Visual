@@ -274,24 +274,31 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 -->
 ### Persona primária
-1. Thiago Alberto Mendes, de 35 anos, é formado em Design de Jogos e atualmente trabalha como Game Director em uma empresa pequena de nome Best Games Studio. Já criou títulos como ATG VI, Armored Lore, Bright Souls. Todos esses jogos possuem características únicas, mas nenhum conseguiu colocar a empresa em posição de destaque. Sua ideia para aumentar o renome da empresa é fazer um título único e inovador.
-   Thiago gostaria de adicionar em seu jogo uma mecânica única, que consiga aproximar o jogo e o jogador, de uma forma natural e que adicione elementos de jogabilidade.<br>
-   <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/840e1f88-3f76-439c-9127-e4c811bcb35c" />
+1. **João Alves - 32 anos** <br>
+João nasceu com uma condição congênita que o deixou completamente cego. Ele trabalha como massoterapeuta e costuma se locomover pela cidade usando bengala. Apesar de ser independente, sente-se inseguro ao atravessar ruas movimentadas     e gostaria de ter uma tecnologia que aumentasse sua segurança no dia a dia. Ele acessaria o site com auxílio de leitor de tela para conhecer o produto e avaliar se poderia trazer mais autonomia para sua vida.
 
-2. Valter Alter, de 58 anos, tem um blog e um canal no YouTube de desenvolvimento de jogos chamado ClickGamesBR, com cerca de 1.3 milhões de inscritos. O foco de seu canal é criar, mostrar ao seu público e publicar os jogos na web. Ultimamente, seus seguidores pediram para que fizesse um jogo que interaja com o usuário a partir de suas emoções. Valter tem uma ideia de história, mas necessita que seus seguidores enviem vídeos com webcam e gameplay de diversos jogos, e dessa maneira ele poderia utilizar uma ferramenta que facilite a criação de datasets, a fim de criar o que seus seguidores desejam.<br>
-    <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/51503288-f126-448a-8377-81d675db1de1" />
+    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/c2aa2de5-a01c-459d-bced-3dafbf143812" />
 
+2. **Mariana Ribeiro - 24 anos**
+Mariana perdeu a visão do olho esquerdo ao nascer e tem baixa visão no olho direito. Atualmente estuda Letras em uma universidade pública e precisa se locomover diariamente entre casa, faculdade e estágio. Usa aplicativos de celular para se orientar, mas sente que ainda falta precisão em ambientes urbanos. Ao acessar o site, buscaria informações detalhadas sobre como o acessório funciona em situações reais, como leitura de placas e identificação de pessoas.
 
-3. Gabriel Cavalcante, de 43 anos, trabalha como analista de dados na empresa Mind Plus, onde semanalmente necessita criar datasets para outras empresas, cujo foco principal das mesmas é o desenvolvimento de jogos. Essas empresas necessitam de datasets personalizados que consigam envolver o jogo e o jogador. Gabriel precisa de uma ferramenta que facilite a captação da emoção de pessoas enquanto jogam, dessa maneira consegue saber que tipos de jogos causariam, mais conforto, raiva e medo, a fim de auxiliar na criação de uma experiência customizada.<br>
-   <img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/8004ef7f-e31e-4866-a6d5-e321e374af5e" />
+    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5c973455-e662-4da9-8e8e-ec8090d6573a" />
+
+3. **Ricardo Silva - 56 anos**
+Ricardo é gerente administrativo e tem um filho de 15 anos com deficiência visual. Ele está sempre em busca de recursos que possam dar mais independência ao filho. Ao entrar no site, Ricardo procuraria informações claras sobre funcionalidades, demonstrações em vídeo e um processo de compra simples e acessível. Para ele, a confiança no produto e a possibilidade de suporte pós-compra seriam fundamentais.
+
+   <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/1681e2c1-1a1e-4d13-a731-60204ccb60aa" />
 
 ### Persona secundária
-1. Lora Barros, de 21 anos, estudante de ciências da computação tem como principal hobby jogar videogame. Costuma jogar jogos únicos com mecânicas diferentes e impactantes. Como está de férias, busca jogar um novo jogo, algo que possa ser controlado e desenvolvido a partir de identificações de rosto, emoções. Para ela, esse seria o ápice da tecnologia nos jogos eletrônicos.
-2. Alberto Bezerra, de 24 anos, estudante de ciências da computação está participando de uma iniciação científica que envolve o desenvolvimento de aplicações com Deep Learning, mas o projeto acabou se estagnando pois o dataset que ele utiliza está desbalanceado. Como está no terceiro semestre da faculdade, ele não compreende completamente o conceito de data augmentation, então ele busca por métodos de criação de datasets usando o próprio rosto para suprir os dados que estão em falta no dataset original.
+1. **Helena Martins - 38 anos**
+Helena é professora universitária e coordena projetos voltados à inclusão digital e tecnologias assistivas. Ela acessaria o site não como usuária do produto, mas para entender a proposta tecnológica e avaliar o potencial de pesquisa e aplicação acadêmica. Buscaria informações técnicas detalhadas, descrições de algoritmos utilizados e possibilidades de colaboração.
+
+2. **Pedro Costa - 50 anos**
+Pedro administra uma ONG que oferece cursos e treinamentos para pessoas com deficiência visual. Ele acessaria o site com o objetivo de avaliar se a tecnologia pode ser adotada pela instituição ou recomendada aos seus alunos. O que ele valorizaria no site seria clareza na explicação, credibilidade e informações sobre preços em escala ou parcerias institucionais.
 
 ## Mapa de empatia
 
-![Mapa de empatia](empatia.png)
+<img width="620" height="432" alt="image" src="https://github.com/user-attachments/assets/caf55c6c-b954-40f4-a519-68a049d31f54" />
 
 <!--
 - Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
@@ -304,38 +311,32 @@ Além disso, o acessório pode despertar interesse em instituições de ensino, 
   - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
 -->
 
-#### Persona primária: Gabriel Calvacante, 43 anos
-- O que o usuário vê: Família bem estruturada; Amigos de classe média-alta, Chefe que demanda desempenho por parte dos funcionários.
-- O que o usuário ouve: Precisa passar mais tempo com a família e menos no trabalho; Assiste a canais do YouTube sobre a área de dados.
-- O que o usuário diz e faz: Gosta de ler livros que abordam psicologia, desde suspense até estudos científicos; Frquenta lugares de luxo moderado, de forma que a família esteja confortável sem precisar gastar mais do que deve.
-- O que o usuário pensa e sente: Preciso estudar para crescer na minha área; Acredito que jogos customizados podem vender mais do que jogos comuns; Compreendo que quanto mais dados a empresa tiver, mais fácil será o trabalho dos funcionários.
-- Dores: Sente que passa menos tempo com a família por conta do tempo gasto dentro de seu trabalho; Sente que não atende as demandas de seu chefe, e se conseguisse um facilitador poderia alavancar seus resultados.
-- Ganhos: Redução de tempo de trabalho, tanto por parte da pesquisa de um dataset coerente, quanto por parte da criação de um novo; Facilidade ao encontrar novos dados.
+#### Persona primária: João Alves - 32 anos
+- O que o usuário vê: João não enxerga, mas “vê” seu ambiente através de outros sentidos. Ele percebe o movimento das ruas pelo fluxo de pessoas e sente os obstáculos pelo uso da bengala. Seu contexto é urbano, com trânsito intenso, sons de veículos e interações frequentes com pessoas ao redor.
 
-#### Persona primária: Valter Alter, 58 anos
-- O que o usuário vê: Seus seguidores do Youtube apoiando suas ideias, família bem unida, cenário de game development mais desenvolvido.
-- O que o usuário ouve: As ferramentas para realizar seu trabalho estão avançando rapidamente, família apoia muito seu trabalho.
-- O que o usuário diz e faz: Gosta de jogar com seus filhos, gosta de produzir jogos e distribuir a seus seguidores. Diz que ama o que faz.
-- O que o usuário pensa e sente: Sente que precisa inovar em seu conteúdo e que precisa de ferramentas novas para isso.
-- Dores: Sente que ainda não fez um jogo de sucesso e que gostasse. Gostaria de atrair mais pessoas para seu nicho de games.
-- Ganhos: Redução do tempo de trabalho e uma produção mais rápida de conteúdo.
+- O que o usuário ouve: O barulho do trânsito, buzinas, vozes de pedestres, instruções de colegas e familiares. Ele também ouve constantemente orientações de aplicativos de celular que usa para se guiar, além de opiniões de amigos sobre novas tecnologias assistivas.
 
-#### Persona primária: Thiago Alberto Mendes, 35 anos
-- O que o usuário vê: Sua contribuição em desenvolvimento de jogos interessantes, 
-- O que o usuário ouve: Que fez bons jogos, que precisa renovar o estado dos games.
-- O que o usuário diz e faz: Diz que quer fazer um jogo que seja inovador e muito grande, que precisa criar uma família.
-- O que o usuário pensa e sente: Se sente sozinho e estagnado profissionalmente.
-- Dores: Não ter feito um jogo muito conhecido, não ter uma família.
-- Ganhos: Muita experiência no desenvolvimento de jogos e manejamento de equipes.
+- O que o usuário diz e faz: João costuma dizer que preza por sua independência, mesmo sabendo das dificuldades. Ele participa ativamente de sua comunidade de deficientes visuais, troca experiências e testa novas soluções tecnológicas.
 
-#### Persona secundária: Lora Barros, 21 anos
-- O que o usuário vê: Amigos bem fiéis, família que apoia suas decisões. Bem disciplinada e sempre tira boas notas.
-- O que o usuário ouve: Ouve que deve arrumar logo um emprego, sobre anúncio de novos jogos e sobre evoluções tecnológicas.
-- O que o usuário diz e faz: Gosta de jogar videogame e estuda bastante, principalmente programação e tecnologias. Não gosta muito de sair, prefere passar o tempo em casa, seja nos estudos ou nos jogos. Gosta de ler livros técnicos.
-- O que o usuário pensa e sente: Queria um jogo revolucionário, com que possa jogar e se divertir com os amigos. Sente que precisa logo arranjar um estágio, pois todos os seus amigos estão começando em um.
-- Dores: Precisa logo de um emprego e quer começar a estudar o desenvolvimento de jogos e datasets.
-- Ganhos: Ser bem sucedida, ter um foco profissional na área de games e ter vários amigos.
-  
+- O que o usuário pensa e sente: Ele sente insegurança ao atravessar ruas movimentadas, mas também esperança de que novas tecnologias possam facilitar sua mobilidade. Sua expectativa é encontrar soluções práticas, simples de usar e que realmente tragam mais autonomia.
+
+- Dores: Dependência constante da bengala e do auxílio de terceiros, risco de acidentes em ruas movimentadas, dificuldade em identificar placas, semáforos e obstáculos inesperados.
+
+- Ganhos: Ter maior segurança, independência e confiança para se locomover sozinho. Ganhar tempo ao não precisar depender de outras pessoas. Sentir-se incluído e autossuficiente em ambientes urbanos.
+
+#### Persona secundária: Pedro Costa - 50 anos
+- O que o usuário vê: Pedro vê o funcionamento da ONG, os alunos com diferentes níveis de deficiência visual e os desafios que enfrentam diariamente. Ele enxerga uma realidade de falta de recursos e a necessidade constante de novas tecnologias assistivas.
+
+- O que o usuário ouve: Escuta relatos dos alunos sobre suas dificuldades, comentários de professores e especialistas em acessibilidade, além de cobranças de instituições parceiras por resultados mais inclusivos. Também acompanha discussões sobre novas tecnologias na área de acessibilidade.
+
+- O que o usuário diz e faz: Pedro costuma defender publicamente a importância da inclusão social e tecnológica. Ele busca parcerias e alternativas inovadoras que possam ser aplicadas em sua ONG para beneficiar os alunos.
+ 
+- O que o usuário pensa e sente: Ele sente a responsabilidade de proporcionar melhores condições de aprendizagem e autonomia para seus alunos. Tem expectativas positivas em relação a produtos que possam ser integrados ao ambiente educacional de forma acessível e eficaz.
+
+- Dores: Limitações orçamentárias da ONG, dificuldade em encontrar soluções acessíveis e escaláveis, falta de tecnologias que atendam a diferentes níveis de deficiência visual.
+ 
+- Ganhos: Encontrar um produto confiável e acessível que possa beneficiar diversos alunos. Aumentar o impacto social da ONG. Sentir que está oferecendo ferramentas concretas de inclusão e autonomia.
+
 ## Contexto de uso
 
 ### Descreva o ambiente em que o serviço ou produto deve ser utilizado:
