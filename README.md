@@ -340,38 +340,40 @@ Pedro administra uma ONG que oferece cursos e treinamentos para pessoas com defi
 ## Contexto de uso
 
 ### Descreva o ambiente em que o serviço ou produto deve ser utilizado:
-* Gabriel Cavalcante:
-Como Gabriel precisa capturar expressões faciais com precisão para gerar datasets confiáveis, o ambiente ideal de uso do produto deve ser controlado. Ele normalmente utiliza salas bem iluminadas e silenciosas em sua empresa, com webcams de pelo menos 720p e fundos neutros, garantindo que os dados não sejam comprometidos por interferências visuais. Como profissional da área, Gabriel também se certifica de que os participantes não utilizem acessórios que obstruam o rosto, como bonés, máscaras ou óculos escuros, para manter a qalidade do reconhecimento facial.
+* João Alves:
+Como o site foi projetado para apresentar e comercializar um acessório assistivo destinado a pessoas com deficiência visual, o ambiente de uso precisa oferecer boas condições de acessibilidade digital. João normalmente acessa o site utilizando softwares leitores de tela em seu computador pessoal, ou em um smartphone com sistema de voz ativado. O ambiente físico em que ele interage tende a ser silencioso e tranquilo, facilitando a compreensão dos áudios emitidos pelo leitor de tela. Além disso, o site deve estar otimizado para navegação por teclado, apresentar contraste adequado de cores e possuir descrições alternativas (alt text) para todas as imagens e mídias.
+
 ### Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-* Gabriel Cavalcante:
-Gabriel atua em um contexto profissional, dentro de uma empresa de tecnologia com foco em dados e jogos digitais. Ele tem acesso a recursos computacionais avançados e trabalha com colaboradores familiarizados com tecnologia. Culturalmente, ele está inserido em um ambiente onde inovação, usabilidade e personalização são valorizados, pois os datasets gerados serão usados para melhorar a experiência de jogadores de diferentes perfis. Economicamente, sua empresa investe em ferramentas que otimizem o tempo e aumentem a qualidade dos dados, o que torna fundamental que o produto seja eficiente e compatível com sistemas mais robustos.
-### Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
-* Gabriel Cavalcante:
-Antes de iniciar a coleta de dados, Gabriel precisa configurar o ambiente e o sistema de forma adequada. Isso inclui garantir que os participantes estejam posicionados corretamente, com boa iluminação e sem obstruções no rosto. O sistema deve registrar informações básicas sobre o cenário de uso (como iluminação, tipo de câmera, resolução e características do ambiente), bem como armazenar fotos iniciais dos usuários para o treinamento do modelo de reconhecimento facial. Esses dados são fundamentais para que o processo ocorra sem erros e para garantir consistência nos datasets gerados.
-### O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
-* Gabriel Cavalcante:
-Durante a coleta das emoções, Gabriel garante que o ambiente permaneça estável: a iluminação constante, pouco ruído e o mínimo de movimento externo. Isso evita interferências no reconhecimento facial e garante que as emoções captadas estejam realmente relacionadas às interações do jogador com o jogo. O foco é criar uma experiência imersiva para o participante, enquanto Gabriel observa, coleta e analisa os dados gerados em tempo real ou após a sessão.
+* João Alves:
+João vive em um contexto social onde ainda há barreiras significativas à inclusão digital, mas também um crescente interesse em tecnologias assistivas acessíveis. Economicamente, ele faz parte de um público que busca soluções de custo-benefício favorável, valorizando produtos que realmente tragam independência e segurança no dia a dia. Culturalmente, ele está inserido em uma sociedade que começa a reconhecer a importância da acessibilidade e da autonomia de pessoas com deficiência, o que faz com que produtos inclusivos ganhem cada vez mais relevância. O site deve refletir esses valores, oferecendo uma comunicação clara, empática e inclusiva.
+
+### Quais informações sobre o ambiente, o serviço ou produto deve guardar antes de iniciar a interação?
+* João Alves:
+Antes de iniciar sua navegação, o site deve reconhecer se o usuário utiliza um leitor de tela e adaptar automaticamente sua interface para acessibilidade. Deve também registrar configurações como idioma, preferências de contraste e tipo de dispositivo (desktop ou mobile). Além disso, o sistema pode armazenar cookies funcionais que facilitem futuras interações, lembrando preferências de leitura, velocidade de áudio e histórico de navegação, sempre respeitando a privacidade e a Lei Geral de Proteção de Dados (LGPD).
+
+### O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou produto?
+* João Alves:
+Durante a navegação, João estará em um ambiente calmo, ouvindo as instruções do leitor de tela que descrevem cada seção do site. Ele pode estar acompanhado de um familiar ou colega, caso precise de auxílio na decisão de compra. O site precisa garantir uma experiência fluida e sem sobrecarga de informações auditivas, permitindo que ele compreenda cada passo, desde conhecer o produto, ouvir suas descrições interativas e assistir aos vídeos demonstrativos, até finalizar uma compra com segurança. O ambiente deve ser estável, com carregamento rápido e sem interferências que possam confundir a leitura do conteúdo pelo software de acessibilidade.
 
 ## Jornada do usuário
 <!--
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
+- Criar uma narrativa para o o seu serviço ou produto com o usuário.
 - Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
   - Descreva o que acontece ou pode acontecer passo a passo
   - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
 -->
 
-Jorge Mateus trabalha na área de dados de uma empresa de desenvolvimento de jogos e decidiu utilizar seu próprio rosto para criar um dataset que será usado em seu trabalho.
-Ele acessa o site do produto, realiza o cadastro, e em seguida cria um nome e uma descrição para o seu dataset. Depois, liga a webcam e define a quantidade de frames que deseja capturar. Durante esse processo, os frames da webcam são salvos automaticamente em uma pasta separada.
-Assim que a quantidade de frames definida é atingida, Jorge inicia o treinamento do dataset clicando em um botão. Em seguida, ele aciona outro botão para começar a captura de emoções e, ao mesmo tempo, inicia sua jogatina. Durante esse período, as imagens capturadas para análise emocional são armazenadas diretamente no dataset criado.
-<!--
-## Análise de concorrência
+João Alves, um homem de 32 anos com deficiência visual total, ouve de um colega da associação de apoio a pessoas com deficiência visual sobre um novo acessório que promete ajudar na locomoção urbana. Interessado, ele decide conhecer melhor o produto acessando o site oficial pelo seu computador pessoal, utilizando um leitor de tela.
 
-- Pesquise serviços ou podutos existentes atualmente que possam realizar o objetivo deste projeto.
-- Selecione pelo menos 3 serviços ou podutos diferentes.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
- -->
+Ao entrar no site, João percebe que a navegação foi desenvolvida para ser totalmente acessível, onde o leitor de tela descreve claramente cada seção, e os botões possuem rótulos intuitivos. Ele começa ouvindo uma breve descrição sobre o acessório, explicando como o dispositivo pode ser acoplado a qualquer óculos e como ele transmite informações sonoras sobre o ambiente ao redor.
+
+Curioso, João acessa a área “Como Funciona”, onde encontra uma demonstração em áudio descrevendo as funções principais do acessório. O site também apresenta um vídeo com narração explicativa, o que permite que ele compreenda melhor o uso do produto sem precisar enxergar as imagens.
+
+Na seção seguinte, ele escuta depoimentos de outros usuários e sente-se mais confiante sobre a utilidade dessa tecnologia. Assim, João decide visitar a página “Compre Agora”, onde o leitor de tela o guia por um processo simples e bem estruturado até a conclusão da compra, o informando sobre opções de pagamento e instruções de envio do assistente visual.
+
+Antes de concluir a compra, João opta por ouvir as políticas de garantia e suporte, que o site disponibiliza em formato de áudio acessível. Após confirmar a compra, ele recebe um e-mail de confirmação e um link para acompanhar o status do pedido.
+
+A jornada termina com João satisfeito por ter conseguido navegar, compreender e adquirir o produto de forma totalmente independente, sem precisar de ajudas externas e sentindo-se incluído digitalmente.
 
 ## Qualidade de Uso em IHC
 * A usabilidade é um dos pilares fundamentais do projeto e deve ser muito bem projetada, uma vez que qualquer um que possuir a licença poderá utilizar a plataforma.
